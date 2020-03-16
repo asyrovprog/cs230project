@@ -1,0 +1,9 @@
+numpy
+Pillow
+tensorflow==1.14.0
+tqdm
+keras
+open3d
+matplotlib
+scipy==1.1.0
+git+https://github.com/raghakot/keras-vis.git

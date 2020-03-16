@@ -1,0 +1,14 @@
+#!/bin/bash
+set -e
+
+echo "Downloading Urban 3D dataset to $DATASET_ROOT/urban3d"
+
+if [[ -z "${DATASET_ROOT}" ]]; then
+  echo "ERROR: DATASET_ROOT environment variable is not set"
+  exit 1
+fi
+
+DEST=$DATASET_ROOT/spacenet/urban3d/
+SRC=s3://spacenet-dataset/Hosted-Datasets/Urban_3D_Challenge/
+
+aws s3 cp $SRC $DEST --recursive

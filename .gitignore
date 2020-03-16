@@ -1,0 +1,15 @@
+# pycharm
+.idea/
+.idea/*
+
+# models (these should be checked in using git lfs as described
+# in https://git-lfs.github.com/)
+/**/*.hdf5
+/**/*.h5
+
+# models in logs in development
+logs/
+logs/*
+
+# python
+*.pyc
