@@ -8,6 +8,9 @@
 
 In this project we explore instance and semantic segmentation using Mask R-CNN ([arxiv](https://arxiv.org/abs/1703.06870)) and Conditional Adversarial Networks ([arxiv](http://arxiv.org/abs/1611.07004)). Inputs are satellite images from Urban3D dataset ([github](https://spacenetchallenge.github.io/datasets/datasetHomePage.html)).
 
+Writing:
+http://cs230.stanford.edu/projects_winter_2020/reports/32060950.pdf
+
 ## Installation 
 
 Dataset is about 30GB and can be downloaded from aws as described [here](doc/datasets.md). After downloading dataset install dependencies and preprocess dataset:
